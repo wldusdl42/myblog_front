@@ -19,5 +19,5 @@ RUN npm install
 COPY . .
 
 EXPOSE 8080
-# CMD ["pm2-runtime", "start", "ecosystem.config.js", "--name", "react", "npm", "--", "start"]
-CMD ["pm2-runtime", "start", "ecosystem.config.js"]
+CMD ["npm", "start"]
+# CMD ["pm2-runtime", "start", "ecosystem.config.js"]
