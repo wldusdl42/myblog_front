@@ -1,4 +1,4 @@
-FROM node:12.16.0
+FROM node:12.12.0-alpine
 MAINTAINER Jiyeon Kim <wldusdl34@gmail.com>
 
 # ENV NODE_ENV=production

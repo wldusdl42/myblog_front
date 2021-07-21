@@ -12,7 +12,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "expose PORT=8080 && react-scripts start",
+    "start": "PORT=8080 react-scripts start",
     "build": "set PORT=8080 && react-scripts build",
     "test": "set PORT=8080 && react-scripts test",
     "eject": "set PORT=8080 && react-scripts eject"
