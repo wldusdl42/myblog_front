@@ -1,6 +1,6 @@
 module.exports = {
     name: "react",
-    script: "./public/index.html",
+    script: "./src/index.js",
     env: {
         NODE_ENV: "development",
     },
