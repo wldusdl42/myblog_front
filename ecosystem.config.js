@@ -1,6 +1,10 @@
 module.exports = [{
-    script: 'dist/index.js',
-    name: 'myblog_front',
-    exec_mode: 'cluster',
-    instances: 2
+    name: "myblog_front",
+    script: "dist/index.js",
+    env: {
+      NODE_ENV: "development",
+    },
+    env_production: {
+      NODE_ENV: "production",
+    }
 }]
