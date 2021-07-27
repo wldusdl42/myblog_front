@@ -12,11 +12,10 @@ MAINTAINER Jiyeon Kim <wldusdl34@gmail.com>
 WORKDIR /usr/src/app
 
 # Install app dependencies
-COPY package*.json ./
+COPY . .
 RUN npm install
 
 # Bundle app source
-COPY . .
 
 EXPOSE 8080
 

@@ -1,0 +1,8 @@
+version: '3'
+services:
+  front:
+    container_name: react
+    image: wldusdl34/myblogfront:latest
+    restart: always
+    ports:
+    - "8080"
