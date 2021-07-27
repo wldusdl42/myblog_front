@@ -6,3 +6,9 @@ services:
     restart: always
     ports:
     - "8080"
+    networks:
+      - lns-network
+
+networks:
+  lns-network:
+    name: myblogall_default
