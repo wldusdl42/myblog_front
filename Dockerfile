@@ -14,6 +14,7 @@ WORKDIR /usr/src/app
 # Install app dependencies
 COPY . .
 RUN npm install
+RUN npm i css-loader
 
 # Bundle app source
 
