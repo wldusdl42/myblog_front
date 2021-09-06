@@ -2,10 +2,6 @@ import { Button, Form } from 'react-bootstrap';
 
 function Login() {
 
-  function ooook() {
-
-  }
-
   return (
     <div className="Login">
       <Form>
